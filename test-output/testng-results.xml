@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47001" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:51Z">
+  <suite name="Suite" duration-ms="32856" started-at="2018-05-29T17:30:33Z" finished-at="2018-05-29T17:31:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47001" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:51Z">
+    <test name="Test" duration-ms="32856" started-at="2018-05-29T17:30:33Z" finished-at="2018-05-29T17:31:06Z">
       <class name="testcases.TC001_PayPal_SignUp">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeSuite" is-config="true" duration-ms="2423" started-at="2018-05-29T16:41:02Z" finished-at="2018-05-29T16:41:04Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeSuite" is-config="true" duration-ms="2151" started-at="2018-05-29T17:30:31Z" finished-at="2018-05-29T17:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="setData" is-config="true" duration-ms="0" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:04Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="setData" is-config="true" duration-ms="0" started-at="2018-05-29T17:30:33Z" finished-at="2018-05-29T17:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:04Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-05-29T17:30:33Z" finished-at="2018-05-29T17:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeMethod" is-config="true" duration-ms="16167" started-at="2018-05-29T16:41:06Z" finished-at="2018-05-29T16:41:22Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeMethod" is-config="true" duration-ms="12500" started-at="2018-05-29T17:30:35Z" finished-at="2018-05-29T17:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="loginAndLogout" duration-ms="27984" started-at="2018-05-29T16:41:22Z" data-provider="fetchData" finished-at="2018-05-29T16:41:50Z">
+        <test-method status="PASS" signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="loginAndLogout" duration-ms="17800" started-at="2018-05-29T17:30:47Z" data-provider="fetchData" finished-at="2018-05-29T17:31:05Z">
           <params>
             <param index="0">
               <value>
@@ -49,19 +49,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndLogout -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterMethod" is-config="true" duration-ms="775" started-at="2018-05-29T16:41:50Z" finished-at="2018-05-29T16:41:51Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterMethod" is-config="true" duration-ms="756" started-at="2018-05-29T17:31:05Z" finished-at="2018-05-29T17:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-29T16:41:51Z" finished-at="2018-05-29T16:41:51Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-05-29T17:31:06Z" finished-at="2018-05-29T17:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterSuite" is-config="true" duration-ms="1362" started-at="2018-05-29T16:41:51Z" finished-at="2018-05-29T16:41:53Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterSuite" is-config="true" duration-ms="1067" started-at="2018-05-29T17:31:06Z" finished-at="2018-05-29T17:31:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- testcases.TC001_PayPal_SignUp -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
