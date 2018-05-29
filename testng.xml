@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testcases.TC001_LoginAndLogout"/>
+      <class name="testcases.TC001_PayPal_SignUp"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
