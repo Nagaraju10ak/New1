@@ -2,66 +2,66 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39103" started-at="2018-05-10T16:54:19Z" finished-at="2018-05-10T16:54:58Z">
+  <suite name="Default suite" duration-ms="47001" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39103" started-at="2018-05-10T16:54:19Z" finished-at="2018-05-10T16:54:58Z">
-      <class name="testcases.TC006_DuplicateLead">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="beforeSuite" is-config="true" duration-ms="1744" started-at="2018-05-10T16:54:17Z" finished-at="2018-05-10T16:54:19Z">
+    <test name="Default test" duration-ms="47001" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:51Z">
+      <class name="testcases.TC001_PayPal_SignUp">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeSuite" is-config="true" duration-ms="2423" started-at="2018-05-29T16:41:02Z" finished-at="2018-05-29T16:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="setData" is-config="true" duration-ms="1" started-at="2018-05-10T16:54:19Z" finished-at="2018-05-10T16:54:19Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="setData" is-config="true" duration-ms="0" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="beforeClass" is-config="true" duration-ms="4" started-at="2018-05-10T16:54:19Z" finished-at="2018-05-10T16:54:19Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-05-29T16:41:04Z" finished-at="2018-05-29T16:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="beforeMethod" is-config="true" duration-ms="7383" started-at="2018-05-10T16:54:21Z" finished-at="2018-05-10T16:54:28Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="beforeMethod" is-config="true" duration-ms="16167" started-at="2018-05-29T16:41:06Z" finished-at="2018-05-29T16:41:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="duplicateLeadTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="duplicateLeadTest" duration-ms="29152" started-at="2018-05-10T16:54:28Z" data-provider="fetchData" finished-at="2018-05-10T16:54:57Z">
+        <test-method status="PASS" signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="loginAndLogout" duration-ms="27984" started-at="2018-05-29T16:41:22Z" data-provider="fetchData" finished-at="2018-05-29T16:41:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[DemoSalesManager]]>
+                <![CDATA[India]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[crmsfa]]>
+                <![CDATA[nagaraju123@gmail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[a]]>
+                <![CDATA[Nagaraj@1993]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[Duplicate Lead | opentaps CRM]]>
+                <![CDATA[Nagaraj@1993]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- duplicateLeadTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="afterMethod" is-config="true" duration-ms="784" started-at="2018-05-10T16:54:57Z" finished-at="2018-05-10T16:54:58Z">
+        </test-method> <!-- loginAndLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterMethod" is-config="true" duration-ms="775" started-at="2018-05-29T16:41:50Z" finished-at="2018-05-29T16:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-10T16:54:58Z" finished-at="2018-05-10T16:54:58Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-29T16:41:51Z" finished-at="2018-05-29T16:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC006_DuplicateLead@c0a365]" name="afterSuite" is-config="true" duration-ms="961" started-at="2018-05-10T16:54:58Z" finished-at="2018-05-10T16:54:59Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_PayPal_SignUp@136e911]" name="afterSuite" is-config="true" duration-ms="1362" started-at="2018-05-29T16:41:51Z" finished-at="2018-05-29T16:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.TC006_DuplicateLead -->
+      </class> <!-- testcases.TC001_PayPal_SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
